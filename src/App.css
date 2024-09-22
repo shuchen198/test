@@ -1,0 +1,30 @@
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+.parking-lot {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.parking-spot {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #000;
+  font-weight: bold;
+}
+
+.available {
+  background-color: #90EE90;
+}
+
+.occupied {
+  background-color: #FF6347;
+}
